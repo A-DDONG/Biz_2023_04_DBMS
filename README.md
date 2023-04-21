@@ -40,6 +40,7 @@
 - Entity 와 Entity 가 서로 연관되어 다른 정보를 만들어내는 것
 - RDBMS 에서는 여러개의 Entity 가 존재하고 Entity와 Entity 가 연결된
 여러개의 Relation 이 존재한다.
-- Relation 에는 연관 Entity 의 Key 항목이 자동으로 포함된 것으로 본
+- Relation 에는 연관 Entity 의 Key 항목이 자동으로 포함된 것으로 본다
+
 
 
