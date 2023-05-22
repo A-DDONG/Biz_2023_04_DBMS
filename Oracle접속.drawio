@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2023-05-22T05:13:41.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="eKtD4G2kHdVjrPz6QAfd" version="21.3.2" type="device">
+  <diagram name="페이지-1" id="jWSsaQ-DOFUw_Jp33pBr">
+    <mxGraphModel dx="989" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uzA5MTxTD5MOF33r19xU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.035;entryY=0.587;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uzA5MTxTD5MOF33r19xU-3" target="uzA5MTxTD5MOF33r19xU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-3" value="관리자(DBA)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="185" width="70" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-4" value="Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uzA5MTxTD5MOF33r19xU-5" target="uzA5MTxTD5MOF33r19xU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uzA5MTxTD5MOF33r19xU-5" target="uzA5MTxTD5MOF33r19xU-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="252" />
+              <mxPoint x="380" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-5" value="Sys 로그인" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="237" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uzA5MTxTD5MOF33r19xU-8" target="uzA5MTxTD5MOF33r19xU-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="310" />
+              <mxPoint x="275" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-8" value="DB, User Create&lt;br&gt;DB, User Drop&lt;br&gt;DB Alter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-10" value="DDL&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;(Data Definition Lang)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="180" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uzA5MTxTD5MOF33r19xU-11" target="uzA5MTxTD5MOF33r19xU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-11" value="유저(User)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uzA5MTxTD5MOF33r19xU-15" target="uzA5MTxTD5MOF33r19xU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-15" value="User 로그인" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="415" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-18" value="CREATE : INSERT&lt;br&gt;READ : SELECT&lt;br&gt;UPDATE : UPDATE&lt;br&gt;DELETE : DELETE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="385" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-20" value="DML&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;(Data Manipulation Lang)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="480" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uzA5MTxTD5MOF33r19xU-22" target="uzA5MTxTD5MOF33r19xU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-22" value="GRANT, REVOKE&lt;br&gt;COMMIT,ROLL BACK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uzA5MTxTD5MOF33r19xU-25" value="DCL&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;(Data Control Lang)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
