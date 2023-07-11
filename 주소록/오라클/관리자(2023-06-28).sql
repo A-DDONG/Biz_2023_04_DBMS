@@ -45,6 +45,7 @@ Oracle 에서 DBA 의 권한은 SYSDBA 보다 다소 제한된 권한이다
 SYSTEM 에 직접 접근하는 것은 금지하고, 그외 권한을 모두 부여한다
 */
 
+-- 사용자 ID addr 에게 DBA 권한을 부여한다
 GRANT DBA TO addr;
 
 
