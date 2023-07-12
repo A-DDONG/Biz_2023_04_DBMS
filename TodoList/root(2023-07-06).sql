@@ -18,6 +18,7 @@ SHOW DATABASES;
 -- 사용자 등록을 할때 접근할 수 있는 범위를 설정해야 한다
 create user 'todo'@'localhost' IDENTIFIED BY '12341234';
 
+
 -- 로컬 네트워크(192.168.4.1 ~ 192.168.4.254) 에서 
 -- 현재 시스템의 MySQL 에 접속할 수 있는 사용자 생성
 create user 'todo'@'192.168.4.%'
@@ -53,7 +54,5 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON todoDB.tbl_todolist TO 'todo'@'192.168.4
 
 DROP USER 'todo'@'192.168.4.%';
 FLUSH PRIVILEGES;
-
-
 
 
